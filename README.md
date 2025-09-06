@@ -59,19 +59,19 @@ cd Patient-Care-Pro
 # Install dependencies
 pip install -r requirements.txt
 
-3. Run the Application
+### **3. Run the Application**
 streamlit run app.py
 
 📂 Data Files Overview
-File	Purpose
-doctor_schedule.xlsx	Holds doctor availability and booked slots.
-patient_database.csv	Stores basic patient details for identifying new vs returning patients.
-all_appointments.xlsx	Maintains a master log of confirmed bookings (auto-generated).
-New Patient Intake Form.pdf	Sample form for patient data collection.
+-File	Purpose
+-doctor_schedule.xlsx	Holds doctor availability and booked slots.
+-patient_database.csv	Stores basic patient details for identifying new vs returning patients.
+-all_appointments.xlsx	Maintains a master log of confirmed bookings (auto-generated).
+-New Patient Intake Form.pdf	Sample form for patient data collection.
 
 🔐 Sample Login Credentials
-Username	Password
-admin	admin123
+-Username	Password
+-admin	admin123
 
 Testing Instructions
 Book a new appointment using sample data.
