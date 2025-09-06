@@ -62,29 +62,40 @@ pip install -r requirements.txt
 ### **3. Run the Application**
 streamlit run app.py
 
-📂 Data Files Overview
--File	Purpose
--doctor_schedule.xlsx	Holds doctor availability and booked slots.
--patient_database.csv	Stores basic patient details for identifying new vs returning patients.
--all_appointments.xlsx	Maintains a master log of confirmed bookings (auto-generated).
--New Patient Intake Form.pdf	Sample form for patient data collection.
+📂## 📂 Data Files Overview
+| **File**                  | **Purpose** |
+|---------------------------|-------------|
+| **doctor_schedule.xlsx**  | Holds doctor availability and booked slots. |
+| **patient_database.csv**  | Stores basic patient details for identifying new vs returning patients. |
+| **all_appointments.xlsx** | Maintains a master log of confirmed bookings (auto-generated). |
+| **New Patient Intake Form.pdf** | Sample form for patient data collection. |
 
-🔐 Sample Login Credentials
--Username	Password
--admin	admin123
+---
 
-Testing Instructions
-Book a new appointment using sample data.
-Check that:
-The chosen slot is marked as Booked in doctor_schedule.xlsx.
-The new booking appears in all_appointments.xlsx.
-Upcoming Bookings tab shows the updated list.
-Verify the export button generates a valid CSV/Excel file.
+## 🔐 Sample Login Credentials
+| **Username** | **Password** |
+|--------------|--------------|
+| admin        | admin123     |
 
-🛠 Tech Stack
-Frontend: Streamlit
-Backend Logic: Python
-Data Storage: Excel & CSV files (via Pandas and OpenPyXL)
+---
 
-🙌 Acknowledgments
-Developed as part of an internship assignment to demonstrate AI agent workflows for healthcare scheduling.
+## 🧪 Testing Instructions
+1. **Book a new appointment** using sample data.
+2. **Verify the following:**
+   - The chosen slot is marked as **Booked** in `doctor_schedule.xlsx`.
+   - The new booking appears in `all_appointments.xlsx`.
+   - The **Upcoming Bookings** tab displays the updated list.
+3. Use the **Export** button to confirm it generates a valid CSV/Excel file.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** Streamlit  
+- **Backend Logic:** Python  
+- **Data Storage:** Excel & CSV files (via Pandas and OpenPyXL)
+
+---
+
+## 🙌 Acknowledgments
+Developed as part of an internship assignment to demonstrate **AI agent workflows** for healthcare scheduling.
+
